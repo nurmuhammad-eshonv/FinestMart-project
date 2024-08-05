@@ -1,0 +1,16 @@
+.containerr{
+    width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.nav-card2 p{
+    font-size: 18px;
+    line-height: 27px;
+}
+.nav-card2 p:hover{
+    cursor: pointer;
+    transition-delay: 0s;
+    border-bottom: solid red 2px;
+    transition: 0.9s all;
+
+}
