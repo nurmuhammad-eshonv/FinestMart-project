@@ -60,8 +60,8 @@ function Navbar() {
               </svg>
             </label>
              <select onChange={handleChangeLanguage} className="select">
-                <option value="uz">uz</option>
-                <option value="en">en</option>
+                <option value="uz">en</option>
+                <option value="en">uz</option>
              </select>
           </div>
         </div>
