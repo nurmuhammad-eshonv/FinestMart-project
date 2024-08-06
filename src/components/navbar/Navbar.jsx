@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/img/logo.png";
 import { useTranslation } from "react-i18next";
-
+import { createContext } from "react";
 
 function Navbar() {
+  
     function handleChangeLanguage(event) {
         i18n.changeLanguage(event.target.value);
-    }
+    } 
     const { t, i18n } = useTranslation();
   const [isDarkMode, setIsDarkMode] = useState(false);
   useEffect(() => {
@@ -31,11 +32,11 @@ function Navbar() {
           </div>
           <div className="nav-card2 flex gap-10">
             <p>{t("home")}</p>
-            <p>Categories</p>
-            <p>Sales</p>
-            <p>FAQ</p>
-            <p>About</p>
-            <p>Contact</p>
+            <p>{t("categories")}</p>
+            <p>{t("sales")}</p>
+            <p>{t("faq")}</p>
+            <p>{t("about")}</p>
+            <p>{t("contact")}</p>
           </div>
           <div className="nav-card3 -mt-3 flex gap-3 ">
             <label className="swap swap-rotate items-center ">

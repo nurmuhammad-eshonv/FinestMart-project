@@ -9,3 +9,25 @@
     font-size:24px;
     
 }
+.main_card2{
+    width: 800px;
+    margin-top: -420px;
+    margin-left: 460px;
+}
+.litt-cards{
+    width: 208px;
+    border:solid grey 1px;
+    border-radius: 30px;
+    height: 206px;
+}
+.litt-cards img{
+    background: transparent;
+    width: 208px;
+    height: 126px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.main_card3{
+    margin-top: -420px;
+    margin-left: 1160px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './components/footer/Footer'
+import ProductCategories from './components/footer/Footer'
 import Main from './components/main/Main'
 import Navbar from './components/navbar/Navbar'
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className='container'>
         <Navbar/>
         <Main/>
-        {/* <Footer/>  */}
+        <ProductCategories/>
     </div>
   )
 }

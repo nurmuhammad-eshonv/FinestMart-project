@@ -1,12 +1,27 @@
 {
     "uz": {
       "translation": {
-        "home": "uy"
+        "home": "uy",
+        "categories": "categoriyalar",
+        "sales" : "sotuvlar" ,
+        "about" :" xaqida",
+        "contact": "bildirish",
+        "faq": "so'rovlar",
+        "title": "O'zingizni mahsulotlaringizni qoldiring",
+        "desc": "Eng yangi ingredientlar bilan mazali taom tayyorlash uchun tashqariga chiqmasdan yangi oziq-ovqat mahsulotlarini onlayn xarid qiling"
+
       }
     },
     "en": {
       "translation": {
-        "home": "home"
+        "home": "home",
+        "categories": "categories",
+        "sales" : "sales" ,
+        "about" :" about",
+        "contact": "contact",
+        "faq": "faq",
+        "title": "Buy your groceries",
+        "desc": "Get fresh groceries online without leaving your house, using the latest ingredients to create your own delicious meals"
       }
     }
   }

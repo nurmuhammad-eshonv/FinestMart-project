@@ -1,10 +1,14 @@
 import React from "react";
+import boy from "../../assets/img/boy.png";
+import cucember from "../../assets/img/cucember.png";
+import carrots from "../../assets/img/carrot.png";
+
 import "./Main.css";
 function Main() {
   return (
     <div className="containerr">
       <div className="main">
-        <div className="main_card1 m-10 ">
+        <div className="main_card1 mt-20 ml-10 ">
           <h1 className="title">
             Let your <span className="text-red-500">groceries</span> <br /> come
             to you
@@ -37,7 +41,21 @@ function Main() {
             </button>
           </div>
         </div>
-        <div className="main_card2"></div>
+        <div className="main_card2">
+          <img src={boy} alt="" />
+        </div>
+        <div className="main_card3 ">
+          <div className="border litt-cards">
+            <img src={cucember} alt="" />
+            <p className="text-center text-1xl mt-2">Fresh Spinach</p>
+            <p className="text-center text-red-600">$12.00</p>
+          </div>
+          <div className="border litt-cards mt-10">
+            <img src={carrots} alt="" />
+            <p className="text-center text-1xl mt-2">Fresh Spinach</p>
+            <p className="text-center text-red-600">$12.00</p>
+          </div>
+        </div>
       </div>
     </div>
   );
