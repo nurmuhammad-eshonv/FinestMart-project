@@ -2,8 +2,8 @@
     "uz": {
       "translation": {
         "home": "uy",
-        "categories": "categoriyalar",
-        "sales" : "sotuvlar" ,
+        "categories": "yoqtirganlar",
+        "sales" : "hisob-raqam" ,
         "about" :" xaqida",
         "contact": "bildirish",
         "faq": "so'rovlar",
@@ -15,8 +15,8 @@
     "en": {
       "translation": {
         "home": "home",
-        "categories": "categories",
-        "sales" : "sales" ,
+        "categories": "likes",
+        "sales" : "account" ,
         "about" :" about",
         "contact": "contact",
         "faq": "faq",
